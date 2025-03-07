@@ -24,7 +24,3 @@ class CatMouseTest(unittest.TestCase):
 
     def test_give_4_8_5_should_CatA(self):
         self.assertEqual(cat_and_mouse(4, 8, 5), "Cat A")
-
-
-if __name__ == "__main__":
-    unittest.main()

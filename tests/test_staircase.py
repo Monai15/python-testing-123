@@ -62,7 +62,3 @@ class StaircaseTest(unittest.TestCase):
 
         # Assert
         self.assertEqual(result, expected_output, f"Should be {expected_output}")
-
-
-if __name__ == "__main__":
-    unittest.main()

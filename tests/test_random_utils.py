@@ -32,7 +32,3 @@ class TestRandomUtils(unittest.TestCase):
     def test_guess_float_with_mock(self, mock_uniform):
         mock_uniform.return_value = 3.5
         self.assertEqual(guess_float(1.0, 5.0), 3.5)
-
-
-if __name__ == "__main__":
-    unittest.main()

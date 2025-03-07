@@ -26,7 +26,3 @@ class FizzBuzzTest(unittest.TestCase):
     def test_give_negative_15_should_return_fizzbuzz(self):
         result = fizzbuzz(-15)
         self.assertEqual(result, "FizzBuzz", "-15 should return 'FizzBuzz'")
-
-
-if __name__ == "__main__":
-    unittest.main()
